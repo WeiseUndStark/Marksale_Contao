@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_page.php" source-language="en">
+    <body>
+      <trans-unit id="tl_page.mstc_legend">
+        <source>Marksale settings</source>
+        <target>Marksale Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="tl_page.mstcId.0">
+        <source>Marksale ID</source>
+        <target>Marksale ID</target>
+      </trans-unit>
+      <trans-unit id="tl_page.mstcId.1">
+        <source>Please enter the Marksale ID.</source>
+        <target>Bitte geben Sie die Marksale ID ein.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
