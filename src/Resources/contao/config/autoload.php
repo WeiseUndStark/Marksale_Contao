@@ -12,11 +12,11 @@
 ClassLoader::addClasses(array
 (
     // Classes
-    'WeiseUndStark\MarksaleScriptInjector'    => 'vendor/contao/marksale-bundle/src/Resources/contao/classes/MarksaleScriptInjector.php',
+    'WeiseUndStark\MarksaleScriptInjector'  => 'vendor/contao/marksale-bundle/src/Resources/contao/classes/MarksaleScriptInjector.php',
 ));
 
 // Templates
 TemplateLoader::addFiles(array
 (
-    'analytics_marksale'                => 'vendor/contao/marksale-bundle/src/Resources/contao/templates/analytics',
+    'marksale_default'                      => 'vendor/contao/marksale-bundle/src/Resources/contao/templates/marksale',
 ));

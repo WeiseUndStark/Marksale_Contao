@@ -16,7 +16,7 @@ class MarksaleScriptInjector
 
             $objParentPage = \PageModel::findOneBy(array('id=?', 'type=?'), array($objPage->rootId, 'root'));
 
-            $objTemplate = new \FrontendTemplate('analytics_marksale');
+            $objTemplate = new \FrontendTemplate('marksale_default');
             $objTemplate->mstcId = $objParentPage->mstcId;
             $GLOBALS['TL_BODY'][] = $objTemplate->parse();
         }
