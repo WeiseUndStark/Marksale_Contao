@@ -1,0 +1,34 @@
+{
+    "name": "weiseundstark/marksale-bundle",
+    "type": "symfony-bundle",
+    "description": "Contao 4 marksale bundle",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+          "name": "Daniel Kiesel",
+          "homepage": "https://github.com/icodr8"
+        },
+        {
+          "name": "Markus Schott",
+          "homepage": "https://github.com/schooott"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/framework-bundle": "~2.7",
+        "contao/core-bundle": "~4.0"
+    },
+    "conflict": {
+        "contao/core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contao\\MarksaleBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "4.1.x-dev"
+        }
+    }
+}

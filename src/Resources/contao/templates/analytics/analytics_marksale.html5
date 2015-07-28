@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Use the Marksale ID from current root page
+ * If you want to use a special logic, you can do this below
+ */
+$strMarksaleId = $this->mstcId;
+
+/**
+* DO NOT EDIT ANYTHING BELOW THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING!
+*/
+if ($strMarksaleId != '' && !BE_USER_LOGGED_IN && !$this->hasAuthenticatedBackendUser()): ?>
+
+<script type="text/javascript">
+  var _mstc = {};
+  _mstc.id = '<?php echo $strMarksaleId; ?>';
+  _mstc.endpoint = 'https://tracking.weiseundstark.de/';
+</script>
+<script src="https://tracking.weiseundstark.de/tracker.js"></script>
+
+<?php endif; ?>
